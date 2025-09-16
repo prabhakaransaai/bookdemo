@@ -32,6 +32,10 @@ public class BookController {
     	b.setId(2);
     	b.setTitle("Tamil");
     	books.put(2,b);
+    	b = new Book();
+    	b.setId(3);
+    	b.setTitle("Maths");
+    	books.put(3,b);
         return books.values();
     }
 
