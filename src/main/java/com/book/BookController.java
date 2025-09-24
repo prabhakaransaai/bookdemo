@@ -43,6 +43,7 @@ public class BookController {
     @PostMapping
     public Book addBook(@RequestBody Book book) {
         books.put(book.getId(), book);
+        /*Test--*/
         return book;
     }
 
